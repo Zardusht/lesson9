@@ -1,0 +1,699 @@
+    /***** RESET *****/
+    
+    html,
+    body,
+    div,
+    span,
+    applet,
+    object,
+    iframe,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    blockquote,
+    pre,
+    a,
+    abbr,
+    acronym,
+    address,
+    big,
+    cite,
+    code,
+    del,
+    dfn,
+    em,
+    font,
+    img,
+    ins,
+    kbd,
+    q,
+    s,
+    samp,
+    small,
+    strike,
+    strong,
+    sub,
+    sup,
+    tt,
+    var,
+    b,
+    u,
+    i,
+    center,
+    dl,
+    dt,
+    dd,
+    ol,
+    ul,
+    li,
+    fieldset,
+    form,
+    label,
+    legend,
+    table,
+    caption,
+    tbody,
+    tfoot,
+    thead,
+    tr {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        /*font-size: 100%;
+    vertical-align: baseline;*/
+    }
+    
+    html,
+    body {
+        height: 100%;
+    }
+    
+    body {
+        line-height: 1;
+    }
+    
+    ol,
+    ul {
+        list-style: none;
+    }
+    
+    blockquote,
+    q {
+        quotes: none;
+    }
+    
+    blockquote:before,
+    blockquote:after,
+    q:before,
+    q:after {
+        content: '';
+        content: none;
+    }
+    
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+    /* tables still need 'cellspacing="0"' in the markup */
+    
+    textarea {
+        overflow: auto;
+    }
+    /***** RESET *****/
+    .header {
+        width: 100%;
+        min-width: 1400px;
+        height: 150px;
+        margin: 0 auto;
+    }
+    
+    .header-top {
+        width: 100%;
+        height: 50px;
+        background-color: #041f40;
+    }
+    
+    .header-top-bar {
+        width: 1200px;
+        height: 50px;
+        margin: 0 auto;
+    }
+    
+    .la {
+        float: left;
+    }
+    
+    .la ul li {
+        float: left;
+        list-style-type: none;
+    }
+    
+    .la ul li a {
+        text-decoration: none;
+        color: white;
+        padding: 15px;
+        line-height: 50px;
+    }
+    
+    .la ul li a:hover {
+        color: #009127;
+    }
+    
+    .la ul li a i {
+        margin-right: 10px;
+    }
+    
+    .main-color {
+        color: #009127;
+    }
+    
+    .sma {
+        float: right;
+    }
+    
+    .sma a {
+        text-decoration: none;
+        color: white;
+        padding: 15px;
+        line-height: 50px;
+    }
+    
+    .sma a:hover {
+        color: #009127;
+    }
+    
+    nav {
+        width: 1200px;
+        height: 100px;
+        margin: 0 auto;
+    }
+    
+    .logo {
+        float: left;
+        font-size: 60px;
+        line-height: 70px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 15px;
+    }
+    
+    .nav-bar {
+        float: right;
+    }
+    
+    .nav-bar li {
+        float: left;
+        list-style: none;
+    }
+    
+    .nav-bar li a {
+        text-decoration: none;
+        color: black;
+        padding: 15px;
+        line-height: 100px;
+        text-transform: uppercase;
+        font-size: 17px;
+    }
+    
+    .search {
+        width: 50px;
+        height: 50px;
+        border: 3px black solid;
+        border-radius: 100%;
+        text-align: center;
+    }
+    
+    .nav-bar li a:hover {
+        color: #009127;
+    }
+    
+    .jumbotron {
+        width: 100%;
+        min-width: 1400px;
+        height: 100vh;
+        background-image: url(https://www.travelguideline.net/wp-content/uploads/2019/12/porto-maria-pia-bridge.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        margin: 0 auto;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .layer {
+        width: 100%;
+        min-width: 1400px;
+        height: 100%;
+        position: absolute;
+        background-color: rgb(0, 8, 2, 0.5);
+    }
+    
+    .jumbotron .layer h1 {
+        color: white;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 40px;
+    }
+    
+    .jumbotron .layer p {
+        color: white;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 24px;
+        margin-top: 20px;
+    }
+    
+    .layer-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .button {
+        width: 100px;
+        height: 100px;
+        background-color: grey;
+        color: white;
+        text-align: center;
+        line-height: 100px;
+        font-size: 30px;
+        opacity: 0.5;
+        position: absolute;
+        top: 50%;
+        cursor: pointer;
+    }
+    
+    .right {
+        right: 0;
+    }
+    
+    .button:hover {
+        background-color: #009127;
+        opacity: 1;
+    }
+    
+    .search-bar {
+        width: 100%;
+        height: 100px;
+        background-color: #041f40;
+        position: absolute;
+        bottom: 0;
+    }
+    
+    .search-bar-area {
+        width: 1200px;
+        height: 100px;
+        margin: 0 auto;
+    }
+    
+    .sbat {
+        width: 220px;
+        height: 100%;
+        color: grey;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 40px;
+        text-transform: uppercase;
+        border-right: 2px solid grey;
+        padding: 10px;
+        float: left;
+    }
+    
+    .clr {
+        color: white;
+        font-size: 40px;
+    }
+    
+    .sbas {
+        /* width: 945px; */
+        height: 100%;
+        line-height: 100px;
+        color: gray;
+        font-size: 25px;
+        float: left;
+        margin-left: 15px;
+    }
+    
+    .sbas input {
+        width: 250px;
+        height: 40px;
+        margin: 0 20px;
+        font-size: 18px;
+    }
+    
+    .products {
+        width: 100%;
+        min-width: 1400px;
+        height: 1400px;
+        margin: 0 auto;
+    }
+    
+    .so {
+        width: 100%;
+        height: 700px;
+    }
+    
+    .ht {
+        width: 100%;
+        min-width: 1400px;
+        height: 700px;
+        background-image: url(https://www.telegraph.co.uk/content/dam/Travel/hotels/europe/turkey/marmaris/d-maris-hotel-turkey-p.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    
+    .ht .layer-2 {
+        width: 100%;
+        min-width: 1400px;
+        height: 700px;
+        position: absolute;
+        background-color: rgb(0, 8, 2, 0.5);
+    }
+    
+    .so-text h2 {
+        text-align: center;
+        font-size: 30px;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .so-text p {
+        text-align: center;
+        font-size: 24px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 10px;
+    }
+    
+    .so-text {
+        width: 100%;
+        min-width: 1400px;
+        float: left;
+        margin-top: 50px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    
+    .so-item {
+        width: 1400px;
+        min-width: 1400px;
+        height: 400px;
+        margin: 0 auto;
+    }
+    
+    .so-items {
+        width: 300px;
+        max-width: 300px;
+        height: 400px;
+        margin: 0 25px;
+        position: relative;
+        float: left;
+        box-sizing: border-box;
+    }
+    
+    .so-items-image {
+        width: 300px;
+        max-width: 300px;
+        height: 400px;
+        background-color: yellow;
+        background-image: url(https://www.guinnessworldrecords.com/Images/Statue-of-Liberty_tcm25-531714.jpg);
+        background-size: cover;
+        position: relative;
+    }
+    
+    .so-items-text {
+        width: 300px;
+        max-width: 300px;
+        height: 100px;
+        background-color: #041f40;
+        position: absolute;
+        top: 300px;
+        padding: 10px;
+        box-sizing: border-box;
+        color: #fff;
+        line-height: 30px;
+    }
+    
+    .so-items:hover {
+        transform: scale(1.1);
+        border: 6px solid #009127;
+        box-sizing: border-box;
+    }
+    
+    .so-items-text a {
+        float: right;
+        color: white;
+        font-size: 20px;
+    }
+    
+    .so-items-text h1,
+    .so-items-text p {
+        width: 200px;
+        float: left;
+    }
+    
+    .ht-text {
+        text-align: center;
+        color: white;
+        padding: 100px;
+    }
+    
+    .ht-text h3 {
+        font-size: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .ht-text p {
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 15px;
+        color: darkgray;
+    }
+    
+    .ht-icons {
+        width: 1200px;
+        height: 200px;
+        margin: 0 auto;
+    }
+    
+    .ht-icon {
+        width: 160px;
+        height: 200px;
+        float: left;
+        padding: 0 20px;
+        color: white;
+    }
+    
+    .ht-icon-image {
+        width: 160px;
+        height: 160px;
+        border: 6px white solid;
+        box-sizing: border-box;
+        border-radius: 50%;
+        font-size: 40px;
+        text-align: center;
+        line-height: 160px;
+    }
+    
+    .ht-icon-text {
+        width: 160px;
+        height: 40px;
+        text-align: center;
+        line-height: 40px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    .ht-icon:hover {
+        color: #009127;
+    }
+    
+    .ht-icon:hover .ht-icon-image {
+        border-color: #009127;
+    }
+    
+    .testimonials {
+        width: 100%;
+        min-width: 1400px;
+        height: 700px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .testimonials h2 {
+        font-size: 40px;
+        padding-top: 60px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .testimonials p {
+        color: darkgray;
+        padding-top: 20px;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .testimonials-area {
+        width: 1400px;
+        height: 400px;
+        margin: 0px auto;
+        overflow: hidden;
+    }
+    
+    .testimonials-area-item {
+        width: 330px;
+        height: 150px;
+        border: 2px gray solid;
+        float: left;
+        padding: 10px;
+        box-sizing: border-box;
+        margin: 125px 10px;
+    }
+    
+    .testimonials-area-item h3 {
+        width: 100%;
+        height: 38px;
+        overflow: hidden;
+        text-align: left;
+        color: gray;
+    }
+    
+    .testimonials-area-item h4 {
+        color: #009127;
+        width: 100%;
+        height: 50px;
+        text-align: left;
+        line-height: 50px;
+        font-size: 20px;
+    }
+    
+    .testimonials-area-item p {
+        width: 100%;
+        height: 30px;
+        padding: 0;
+        text-align: left;
+    }
+    
+    .testimonials-area-item:hover {
+        transform: scaleY(1.2);
+        border-top: 4px #009127 solid;
+    }
+    
+    .testimonials-area-item:hover h3 {
+        height: 55px;
+    }
+    
+    footer {
+        width: 100%;
+        min-width: 1400px;
+        height: 500px;
+        background-color: #041f40;
+        float: left;
+    }
+    
+    .footer-area {
+        width: 1400px;
+        height: 500px;
+        margin: 0 auto;
+    }
+    .area-1 {
+        width: 1400px;
+        height: 300px;
+    }
+    .area-1-item {
+        width: 350px;
+        height: 300px;
+        float: left;
+        padding: 30px 30px;
+        box-sizing: border-box;
+    }
+    .area-1-item h1 {
+        color: #009127;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 20px;
+    }
+    .area-1-item p {
+        color: white;
+        padding: 20px 10px ;
+        padding-top: 0;
+    }
+    .area-1-item .email {
+        width: 200px;
+        height: 35px;
+        margin-left: 10px;
+        border: 1px black solid;
+    }
+    .area-1-item .submit {
+        width: 55px;
+        height: 45px;
+        background-color: #009127;
+        border: none;
+        color: #fff;
+    }
+    
+    .news-text {
+        float: left;
+        width: 200px;
+        padding: 0px 10px;
+        box-sizing: border-box;
+    }
+    .news-image {
+        float: left;
+    }
+    .news {
+        margin-top: 20px;
+    }
+    .tags {
+        padding: 5px;
+        border: 2px white solid;
+        color: white;
+        text-decoration: none;
+        font-size: 24px;
+        float: left;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+    .mail {
+        color: #009127;
+    }
+    .sm {
+        float: left;
+        margin-left: 20px;
+        font-size: 24px;
+        color: white;
+    }
+    .sm:hover {
+        color: #009127;
+    }
+    .area-2 {
+        text-align: center;
+        border-top: 2px grey solid;
+        padding-top: 20px;
+        width: 100%;
+        height: 100px;
+    }
+    .area-2 a {
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        border-right: 1px grey dashed;
+        padding: 0 10px;
+    }
+    .area-2 a:nth-child(7) {
+        border-right: none;
+    }
+    .area-2 a:hover {
+        color: #009127;
+    }
+    .area-2 p {
+        color: grey;
+        font-size: 16px;
+        padding-top: 10px;
+    }
+    .area-3 {
+        width: 100%;
+        height: 78px;
+    }
+    .triangle {
+        width: 0;
+        height: 0;
+        border: 39px solid #041f40;
+        border-bottom-color: #009127;
+        margin: 0 auto;
+        background-color: yellow;
+        position: relative;        
+    }
+    .triangle i {
+        font-size: 20px;
+        color: #fff;
+        position: absolute; 
+        transform: translate(-50%, 50%);
+    }
+
+    
+    
